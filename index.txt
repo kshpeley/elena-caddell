@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Elena Caddell Cleaning Services</title>
+</head>
+
+<style>
+
+.container {
+	display: flex;
+	flex-flow: column wrap;
+      align-content: flex-start;
+	align-items: center;
+}	
+	
+.header{
+    margin: 0px;
+    width: 100%;
+    font-family: Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #b3b3ff;
+}
+
+.history {
+    margin: -35px;
+    padding-left: 100px;
+    width: 70%;
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    text-align: right;
+}
+
+
+.contact {
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+address {
+    margin-bottom: 35px;
+    font-family: 'Trebuchet MS', sans-serif; 
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.photos {
+    width: 80%;
+    height: 200px;  
+}
+
+.main {
+    padding: 80px;
+    width: 80%;
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.8;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background-color: #000099;
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+
+</style>
+
+<body style="margin: 0px;">
+
+<div class="container">
+
+  <div class="header">
+  	<h1>Home Cleaning Services by Elena Caddell</h1>
+  </div>
+
+  <div class="history">Since 1983</div>
+
+  <div class="contact">Phone: 570-977-5158</div>
+
+  <address>Poconos, PA</address>
+
+  <div style="width:100%; height:20px; background-color:#000099;">	
+  </div>
+
+  <div class="photos">
+  	<img src="photo1.jpg" alt="Photo" width="50px" height="150px">
+     <img src="photo2.jpg" alt="Photo" width=50px" height="150px">
+  </div>	
+
+  <div class="main">
+   <summary>
+      Our services are trusted by our clients in the beautiful Pocono Mountains.
+      <br>
+      We offer rates on bi-weekly and monthly services.
+      <br>
+      Our prices vary depending on the size of the home.
+      <br>
+      We also offer a <em>free estimate</em>! Please call to inquire.
+   </summary>
+</div>
+
+<footer>
+Website Development by Krystal Shpeley - 2023
+</footer>
+
+</div>
+
+
+</body>
+
+</html>
