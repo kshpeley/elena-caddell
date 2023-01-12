@@ -104,7 +104,7 @@ footer {
      <table>
       <tr>
         <td style="width:200px; height:500px; padding:50px;">
-  	  <img src="photo1.jpg" alt="Photo" width="150px" height="500px">
+  	  <img src="cleaning.jpg" alt="Photo" width="150px" height="500px">
         </td>	
         <td style="width:200px; height:500px;">	
          <img src="photo2.jpg" alt="Photo" width=150px" height="500px" padding:50px;>
@@ -133,3 +133,4 @@ Website Development by Krystal Shpeley - 2023
 
 </body>
 </html>
+
