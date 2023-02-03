@@ -6,15 +6,34 @@
 	<meta name="author" content="Elena Caddell">
 	<meta name="description" content="Home Cleaning Service">
 	<meta name="keywords" content="cleaning, house, home, Poconos, Pocono Mountains, Pennsylvania, service, Elena Caddell, move out">
-<title>Elena Caddell Cleaning Services</title>
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<title>Cleaners To The Rescue</title>
 <style>
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}  
 
 .container {
 	display: flex;
 	flex-flow: column wrap;
-        align-content: flex-start;
-	align-items: center;
+     align-content: flex-start;
 }	
+
+
+.banner {
+    width: 100%;
+    height: 200px;
+    background-image: url('cleaning.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+}
 	
 .header{
     margin: 0px;
@@ -29,6 +48,8 @@
     margin: -35px;
     padding-left: 100px;
     width: 70%;
+    color: #000099;
+    text-shadow: 2px 2px 4px #b3b3ff;
     font-family: Georgia, sans-serif;
     font-weight: bold;
     font-style: italic;
@@ -38,8 +59,9 @@
 
 
 .contact {
-    margin-top: 45px;
-    margin-bottom: 20px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 10px;
     font-family: Tahoma, sans-serif;
     font-weight: bold;
     font-size: 20px;
@@ -47,27 +69,24 @@
 }
 
 address {
-    margin-bottom: 35px;
+    width: 100%;
     font-family: 'Trebuchet MS', sans-serif; 
     font-size: 20px;
     font-style: italic;
     font-weight: bold;
+    text-align: center;
 }
-
-.photos {
-    width: 300px;
-    height: 500px;  
-    padding: 40px;
-}
-
+   
 .main {
-    padding: 80px;
-    width: 80%;
-    font-family: Tahoma, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    width: 100%;
+    font-family: 'Trebuchet MS', sans-serif;
     font-size: 18px;
     text-align: center;
     line-height: 1.8;
 }
+
 
 footer {
     width: 100%;
@@ -78,6 +97,8 @@ footer {
     font-size: 15px;
     text-align: center;
     line-height: 50px;
+    bottom: 0%;
+    position: fixed;
 }
 
 </style>
@@ -87,8 +108,10 @@ footer {
 
 <div class="container">
 
+  <div class="banner">
+  </div>
   <div class="header">
-  	<h1>Home Cleaning Services by Elena Caddell</h1>
+  	<h1>Cleaners To The Rescue</h1>
   </div>
 
   <div class="history">Since 1983</div>
@@ -97,34 +120,18 @@ footer {
 
   <address>Poconos, Pennsylvania</address>
 
-  <div style="width:100%; height:20px; background-color:#000099;">	
-  </div>
-
-  <div class="photos">
-     <table>
-      <tr>
-        <td style="width:200px; height:500px; padding:50px;">
-  	  <img src="cleaning.jpg" alt="Photo" width="150px" height="500px">
-        </td>	
-        <td style="width:200px; height:500px;">	
-         <img src="photo2.jpg" alt="Photo" width=150px" height="500px" padding:50px;>
-       </td>
-      </tr>
-     </table> 
-  </div>	
-
   <div class="main">
-   <summary>
-      Our services are trusted by our clients in the beautiful Pocono Mountains.
+    <summary>
+      <strong>Our services are trusted by our clients in the beautiful Pocono Mountains.
       <br>
       We offer rates on bi-weekly and monthly services.
       <br>
       Our prices vary depending on the size of the home.
       <br>
-      We also offer a <em>free estimate</em>! Please call to inquire.
-   </summary>
-</div>
-
+      We also offer a <em>free estimate!</em> Please call to inquire.</strong>
+    </summary>
+  </div>
+ 
 <footer>
 Website Development by Krystal Shpeley - 2023
 </footer>
@@ -133,4 +140,6 @@ Website Development by Krystal Shpeley - 2023
 
 </body>
 </html>
+
+
 
